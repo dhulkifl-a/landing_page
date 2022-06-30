@@ -2,6 +2,15 @@ body {
     margin: 0;
 }
 
+header,
+a,
+h1,
+.top-content {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 header {
     height: 60px;
     background: #1f2937;
@@ -10,7 +19,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -37,8 +45,7 @@ h1 {
 }
 
 .top-content {
-    margin-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background: #1f2937;
-    margin-bottom: 100px;
-
 }
