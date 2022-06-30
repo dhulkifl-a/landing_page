@@ -6,7 +6,8 @@ header,
 a,
 h1,
 .top-content,
-p {
+p,
+button {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -56,4 +57,15 @@ p {
 .top-content {
     padding: 100px 200px;
     background: #1f2937;
+}
+
+button {
+    background: #3882f6;
+    color:#e5e7eb;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
 }
