@@ -94,3 +94,10 @@ button {
     font-weight: bolder;
     color: #1f2937;
 }
+
+.box {
+    height: 170px;
+    width: 170px;
+    border-color: #3882f6;
+    border: 4px;
+}
