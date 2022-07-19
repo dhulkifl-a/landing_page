@@ -93,6 +93,7 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    padding-bottom: 20px;
 }
 
 .box {
@@ -100,4 +101,10 @@ button {
     border-color: #3882f6;
     height: 165px;
     width: 165px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
