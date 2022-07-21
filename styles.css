@@ -9,7 +9,8 @@ h1,
 p,
 button,
 .title,
-.text {
+.text,
+.quote {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -120,4 +121,17 @@ button {
     text-align: center;
     font-size: 18px;
     color: #1f2937;
+    margin-bottom: 124px;
 }
+
+.third-content {
+    background: #E5E7EB;
+    padding: 140px 200px;
+}
+
+.quote {
+    font-weight: 100;
+    font-size: 36px;
+    font-style: italic;
+}
+
