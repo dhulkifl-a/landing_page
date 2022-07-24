@@ -10,7 +10,8 @@ p,
 button,
 .title,
 .text,
-.quote {
+.quote,
+.quoter {
     font-family: "Roboto";
 }
 
@@ -132,6 +133,11 @@ button {
     color: #1f2937;
     font-family: "Roboto Light";
     font-style: italic;
+}
 
+.quoter {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
 }
 
