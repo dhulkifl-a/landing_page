@@ -151,4 +151,5 @@ button {
     background: #3882f6;
     height: 150px;
     padding-left: 120px;
+    border-radius: 1em;
 }
