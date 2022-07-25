@@ -11,7 +11,8 @@ button,
 .title,
 .text,
 .quote,
-.quoter {
+.quoter,
+.second-text {
     font-family: "Roboto";
 }
 
@@ -47,6 +48,11 @@ h1 {
     color: #f9faf8;
     padding: 0;
     margin: 0;
+}
+
+.second-text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 p {
@@ -145,6 +151,9 @@ button {
     padding: 100px 200px;
 }
 
+.fourth-content span{
+    display: block;
+}
 .call-to-action {
     display: flex;
     align-items: center;
@@ -152,4 +161,12 @@ button {
     height: 150px;
     padding-left: 120px;
     border-radius: 1em;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f2937;
 }
